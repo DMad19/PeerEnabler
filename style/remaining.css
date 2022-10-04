@@ -1,0 +1,100 @@
+#welcome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background-color: #1f2937;
+}
+#welcome>img{
+    width: 50%;
+    height: auto;
+    padding: 5px;
+    border: 2px solid #f9faf8;
+}
+#why{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: cursive;
+}
+#why>div>h1{
+    color: maroon;
+    font-size: 4em;
+}
+#why>div>a{
+    color: blue;
+    font-size: 2em;
+    text-decoration: underline;
+}
+#meme{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 30px;
+}
+#meme>div{
+    font-size: 4em;
+    font-weight: bolder;
+    padding:9px;
+}
+.meme-duo>img{
+    width:40%;
+    height: 40%;
+}
+.meme-duo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.docs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family: cursive;
+}
+button{
+    border-radius: 2.5%;
+}
+.docs>div>a>button>h2{
+    color: darkblue;
+}
+button:hover{
+    border: 2px solid white;
+    color: white;
+}
+.download{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 20px;
+    color:#f9faf8;
+}
+button{
+    border-radius: 2.5%;
+}
+.download>div>a>button>h2{
+    color:#f9faf8;
+}
+button:hover{
+    border: 2px solid white;
+    color: white;
+}
+.docs>.webs-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 90px;
+}
+.docs>.webs-container>div{
+    width: 50%;
+    height: auto;
+}
