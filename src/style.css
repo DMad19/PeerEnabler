@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .menu>div{
+        @apply text-yellow-300 p-1 hover:border-2 hover:border-red-500 hover:border-solid hover:text-red-500 hover:rounded-md hover:bg-yellow-400;
+    }
+    img{
+        @apply max-h-min
+    }
+    .learn>div{
+        @apply md:flex md:justify-between md:items-center md:text-4xl
+    }
+    .learn>div>a>img{
+        @apply w-80 h-40 border-red-500 border-2 border-solid
+    }
+    .events>div{
+        @apply flex flex-col justify-center items-center bg-blue-500 p-2 border-2 m-2 gap-3 border-black border-solid
+    }
+    .btns-set>button{
+        @apply bg-green-400 px-2 py-1 rounded-md border-solid border-gray-900 border-2
+    }
+    .odd{
+        @apply bg-gray-50 flex flex-col justify-center items-center p-2 gap-2 bg-yellow-300
+    }
+}
