@@ -2,7 +2,6 @@
   "name": "webreboot",
   "version": "1.0.0",
   "description": "A interface to share your skills with your peers.",
-  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "webpack --watch",
